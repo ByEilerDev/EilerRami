@@ -27,7 +27,7 @@ public class Jdbcdatos {
             }
             
             // Insercion de datos
-            statement.execute("INSERT INTO `usuarios` (`id`, `nombre`) VALUES (NULL, 'jsanin');");
+            statement.execute("INSERT INTO `usuarios` (`id`, `nombre`) VALUES (NULL, 'jsanim');");
             System.out.println("");
             rs = statement.executeQuery("SELECT * FROM usuarios");
             while(rs.next()){
